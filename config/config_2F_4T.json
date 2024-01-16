@@ -1,0 +1,206 @@
+{
+    "z3_seed": {
+        "value": 42,
+        "description": "Z3 random seed"
+    },
+    "NumTrack": {
+        "value": 4,
+        "description": "Number of tracks"
+    },
+    "NumFin": {
+        "value": 2,
+        "description": "Number of Fins (based on NumTrack)"
+    },
+    "MAR_M1_Parameter": {
+        "value": 60,
+        "description": "Minimum Area 1: (Default), Integer"
+    },
+    "MAR_M2_Parameter": {
+        "value": 60,
+        "description": "Minimum Area 1: (Default), Integer"
+    },
+    "MAR_M3_Parameter": {
+        "value": 60,
+        "description": "Minimum Area 1: (Default), Integer"
+    },
+    "MAR_M4_Parameter": {
+        "value": 60,
+        "description": "Minimum Area 1: (Default), Integer"
+    },
+    "EOL_M1_B_ADJ_Parameter": {
+        "value": 60,
+        "description": "L1-Distance-Based End-of-Line  1: (Default), Integer"
+    },
+    "EOL_M1_B_Parameter": {
+        "value": 60,
+        "description": "L1-Distance-Based End-of-Line  1: (Default), Integer"
+    },
+    "EOL_M2_R_ADJ_Parameter": {
+        "value": 60,
+        "description": "L1-Distance-Based End-of-Line  1: (Default), Integer"
+    },
+    "EOL_M2_R_Parameter": {
+        "value": 60,
+        "description": "L1-Distance-Based End-of-Line  1: (Default), Integer"
+    },
+    "EOL_M3_B_ADJ_Parameter": {
+        "value": 60,
+        "description": "L1-Distance-Based End-of-Line  1: (Default), Integer"
+    },
+    "EOL_M3_B_Parameter": {
+        "value": 60,
+        "description": "L1-Distance-Based End-of-Line  1: (Default), Integer"
+    },
+    "EOL_M4_R_ADJ_Parameter": {
+        "value": 60,
+        "description": "L1-Distance-Based End-of-Line  1: (Default), Integer"
+    },
+    "EOL_M4_R_Parameter": {
+        "value": 60,
+        "description": "L1-Distance-Based End-of-Line  1: (Default), Integer"
+    },
+    "VR_M1M2_Parameter": {
+        "value": 40,
+        "description": "L1-Distance-Based VIA sqrt(2)_=1.5 : (Default), Float"
+    },
+    "VR_M2M3_Parameter": {
+        "value": 40,
+        "description": "L1-Distance-Based VIA sqrt(2)_=1.5 : (Default), Float"
+    },
+    "VR_M3M4_Parameter": {
+        "value": 40,
+        "description": "L1-Distance-Based VIA sqrt(2)_=1.5 : (Default), Float"
+    },
+    "PRL_M1_Parameter": {
+        "value": 60,
+        "description": "L1-Distance-Based Parallel Run-length 1: (Default). Integer"
+    },
+    "PRL_M2_Parameter": {
+        "value": 60,
+        "description": "L1-Distance-Based Parallel Run-length 1: (Default). Integer"
+    },
+    "PRL_M3_Parameter": {
+        "value": 60,
+        "description": "L1-Distance-Based Parallel Run-length 1: (Default). Integer"
+    },
+    "PRL_M4_Parameter": {
+        "value": 60,
+        "description": "L1-Distance-Based Parallel Run-length 1: (Default). Integer"
+    },
+    "SHR_M1_Parameter": {
+        "value": 0,
+        "description": "L1-Distance-Based Step Heights 1: (Default), Integer"
+    },
+    "SHR_M2_Parameter": {
+        "value": 0,
+        "description": "L1-Distance-Based Step Heights 1: (Default), Integer"
+    },
+    "SHR_M3_Parameter": {
+        "value": 0,
+        "description": "L1-Distance-Based Step Heights 1: (Default), Integer"
+    },
+    "SHR_M4_Parameter": {
+        "value": 0,
+        "description": "L1-Distance-Based Step Heights 1: (Default), Integer"
+    },
+    "Partition_Parameter": {
+        "value": 0,
+        "description": "0: Disable(Default) 1. Cell Partitioning 2. Cell Partitioning"
+    },
+    "SiteName": {
+        "value": "coresite",
+        "description": "Site Name"
+    },
+    "CHSTR": {
+        "value": 6,
+        "description": "Characteristics"
+    },
+    "PGPIN": {
+        "value": "M0",
+        "description": "Power Ground Connection Type"
+    },
+    "MPO": {
+        "value": 2,
+        "description": "Minimum Pin Opening"
+    },
+    "DR": {
+        "value": "ET",
+        "description": "Design Rule"
+    },
+    "CPP": {
+        "value": 45,
+        "description": "Contact Poly Pitch"
+    },
+    "M1_Factor": {
+        "value": 45,
+        "description": "(SMT Naming Convention) Adjacent FET Pin distance"
+    },
+    "M1_Offset": {
+        "value": 0,
+        "description": "(SMT Naming Convention) PC Layer Offset"
+    },
+    "M0P": {
+        "value": 24,
+        "description": "Metal0 Pitch"
+    },
+    "M2_Factor": {
+        "value": 1,
+        "description": "(SMT Naming Convention) Metal 0 Distance"
+    },
+    "M2_Offset": {
+        "value": 0,
+        "description": "(SMT Naming Convention) Metal 0 Offset"
+    },
+    "M1P": {
+        "value": 30,
+        "description": "Metal1 Pitch"
+    },
+    "M3_Factor": {
+        "value": 60,
+        "description": "(SMT Naming Convention) Metal 1 Distance"
+    },
+    "M3_Offset": {
+        "value": 0,
+        "description": "(SMT Naming Convention) Metal 1 Offset"
+    },
+    "M2P": {
+        "value": 24,
+        "description": "Metal2 Pitch"
+    },
+    "M4_Factor": {
+        "value": 1,
+        "description": "(SMT Naming Convention) Metal 2 Distance"
+    },
+    "M4_Offset": {
+        "value": 0,
+        "description": "(SMT Naming Convention) Metal 2 Offset"
+    },
+    "ENC": {
+        "value": 5,
+        "description": "Enclosure"
+    },
+    "FinWidth": {
+        "value": 0.006,
+        "description": "Fin Width"
+    },
+    "FinPitch": {
+        "value": 0.024,
+        "description": "Fin Pitch"
+    },
+    "GateWidth": {
+        "value": 0.016,
+        "description": "Gate Width"
+    },
+    "M0Width": {
+        "value": 0.014,
+        "description": "Metal0 Width"
+    },
+    "M1Width": {
+        "value": 0.015,
+        "description": "Metal1 Width"
+    },
+    "M2Width": {
+        "value": 0.014,
+        "description": "Metal2 Width"
+    }
+}

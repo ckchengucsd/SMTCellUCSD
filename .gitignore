@@ -1,0 +1,6 @@
+build
+./.vscode
+./results/results_*F*T_*/*
+results/results_?F?T_*/*
+*/__pycache__/*
+__pycache__/*
