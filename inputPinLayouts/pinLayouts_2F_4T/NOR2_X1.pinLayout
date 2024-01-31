@@ -5,27 +5,27 @@ a   Width of Routing Clip    = 17
 a   Height of Routing Clip   = 2
 a   Tracks per Placement Row = 3
 a   Width of Placement Clip  = 17
-a   Tracks per Placement Row = 2
+a   Tracks per Placement Clip = 2
 i   ===InstanceInfo===
 i   InstID Type Width
-i   insMM2 PMOS 3
-i   insMM3 PMOS 3
-i   insMM0 NMOS 3
-i   insMM1 NMOS 3
+i   insMM2 PMOS 2
+i   insMM3 PMOS 2
+i   insMM0 NMOS 2
+i   insMM1 NMOS 2
 i   ===PinInfo===
 i   PinID NetID InstID PinName PinDirection PinLength
-i   pin0 net0 insMM0 D s 3
-i   pin1 net1 insMM0 G s 3
-i   pin2 net2 insMM0 S s 3
-i   pin3 net0 insMM1 D t 3
-i   pin4 net3 insMM1 G s 3
-i   pin5 net2 insMM1 S t 3
-i   pin6 net0 insMM2 D t 3
-i   pin7 net1 insMM2 G t 3
-i   pin8 net4 insMM2 S s 3
-i   pin9 net4 insMM3 D t 3
-i   pin10 net3 insMM3 G t 3
-i   pin11 net5 insMM3 S s 3
+i   pin0 net0 insMM0 D s 2
+i   pin1 net1 insMM0 G s 2
+i   pin2 net2 insMM0 S s 2
+i   pin3 net0 insMM1 D t 2
+i   pin4 net3 insMM1 G s 2
+i   pin5 net2 insMM1 S t 2
+i   pin6 net0 insMM2 D t 2
+i   pin7 net1 insMM2 G t 2
+i   pin8 net4 insMM2 S s 2
+i   pin9 net4 insMM3 D t 2
+i   pin10 net3 insMM3 G t 2
+i   pin11 net5 insMM3 S s 2
 i   pin12 net5 ext VDD t -1 P
 i   pin13 net2 ext VSS t -1 P
 i   pin14 net1 ext A1 t -1 I

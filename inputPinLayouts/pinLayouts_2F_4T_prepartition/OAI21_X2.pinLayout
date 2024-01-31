@@ -5,35 +5,35 @@ a   Width of Routing Clip    = 30
 a   Height of Routing Clip   = 2
 a   Tracks per Placement Row = 3
 a   Width of Placement Clip  = 30
-a   Tracks per Placement Row = 2
+a   Tracks per Placement Clip = 2
 i   ===InstanceInfo===
 i   InstID Type Width
-i   insMM5 PMOS 6
-i   insMM4 PMOS 6
-i   insMM3 PMOS 6
-i   insMM2 NMOS 6
-i   insMM1 NMOS 6
-i   insMM0 NMOS 6
+i   insMM5 PMOS 4
+i   insMM4 PMOS 4
+i   insMM3 PMOS 4
+i   insMM2 NMOS 4
+i   insMM1 NMOS 4
+i   insMM0 NMOS 4
 i   ===PinInfo===
 i   PinID NetID InstID PinName PinDirection PinLength
-i   pin0 net0 insMM2 S s 6
-i   pin1 net1 insMM2 G s 6
-i   pin2 net2 insMM2 D s 6
-i   pin3 net3 insMM0 D s 6
-i   pin4 net4 insMM0 G s 6
-i   pin5 net2 insMM0 S t 6
-i   pin6 net2 insMM1 S t 6
-i   pin7 net5 insMM1 G s 6
-i   pin8 net3 insMM1 D t 6
-i   pin9 net3 insMM5 D t 6
-i   pin10 net1 insMM5 G t 6
-i   pin11 net6 insMM5 S s 6
-i   pin12 net3 insMM3 D t 6
-i   pin13 net4 insMM3 G t 6
-i   pin14 net7 insMM3 S s 6
-i   pin15 net7 insMM4 D t 6
-i   pin16 net5 insMM4 G t 6
-i   pin17 net6 insMM4 S t 6
+i   pin0 net0 insMM2 S s 4
+i   pin1 net1 insMM2 G s 4
+i   pin2 net2 insMM2 D s 4
+i   pin3 net3 insMM0 D s 4
+i   pin4 net4 insMM0 G s 4
+i   pin5 net2 insMM0 S t 4
+i   pin6 net2 insMM1 S t 4
+i   pin7 net5 insMM1 G s 4
+i   pin8 net3 insMM1 D t 4
+i   pin9 net3 insMM5 D t 4
+i   pin10 net1 insMM5 G t 4
+i   pin11 net6 insMM5 S s 4
+i   pin12 net3 insMM3 D t 4
+i   pin13 net4 insMM3 G t 4
+i   pin14 net7 insMM3 S s 4
+i   pin15 net7 insMM4 D t 4
+i   pin16 net5 insMM4 G t 4
+i   pin17 net6 insMM4 S t 4
 i   pin18 net6 ext VDD t -1 P
 i   pin19 net0 ext VSS t -1 P
 i   pin20 net4 ext A1 t -1 I
@@ -55,7 +55,7 @@ i   ===PartitionInfo===
 i   InstID Type PartitionGroup
 i   insMM5 PMOS 1
 i   insMM3 PMOS 2
-i   insMM4 PMOS 3
+i   insMM4 PMOS 2
 i   insMM2 NMOS 1
 i   insMM0 NMOS 2
-i   insMM1 NMOS 3
+i   insMM1 NMOS 2

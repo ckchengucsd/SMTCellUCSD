@@ -15,7 +15,7 @@ i   insMM4 PMOS 1
 i   insMM2 PMOS 1
 i   insMM1 PMOS 2
 i   insMM3 PMOS 2
-i   insMM6 PMOS 3
+i   insMM6 PMOS 2
 i   insMM8 NMOS 2
 i   insMM15 NMOS 2
 i   insMM12 NMOS 1
@@ -23,7 +23,7 @@ i   insMM13 NMOS 1
 i   insMM9 NMOS 1
 i   insMM10 NMOS 2
 i   insMM11 NMOS 2
-i   insMM14 NMOS 3
+i   insMM14 NMOS 2
 i   ===PinInfo===
 i   PinID NetID InstID PinName PinDirection PinLength
 i   pin0 net0 insMM8 S s 2

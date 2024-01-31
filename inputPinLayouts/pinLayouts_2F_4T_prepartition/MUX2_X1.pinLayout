@@ -5,59 +5,59 @@ a   Width of Routing Clip    = 19
 a   Height of Routing Clip   = 2
 a   Tracks per Placement Row = 3
 a   Width of Placement Clip  = 19
-a   Tracks per Placement Row = 2
+a   Tracks per Placement Clip = 2
 i   ===InstanceInfo===
 i   InstID Type Width
-i   insMM0 PMOS 3
-i   insMM2 PMOS 3
-i   insMM5 PMOS 3
-i   insMM4 PMOS 3
-i   insMM1 PMOS 3
-i   insMM3 PMOS 3
-i   insMM6 NMOS 3
-i   insMM9 NMOS 3
-i   insMM11 NMOS 3
-i   insMM10 NMOS 3
-i   insMM8 NMOS 3
-i   insMM7 NMOS 3
+i   insMM0 PMOS 2
+i   insMM2 PMOS 2
+i   insMM5 PMOS 2
+i   insMM4 PMOS 2
+i   insMM1 PMOS 2
+i   insMM3 PMOS 2
+i   insMM6 NMOS 2
+i   insMM9 NMOS 2
+i   insMM11 NMOS 2
+i   insMM10 NMOS 2
+i   insMM8 NMOS 2
+i   insMM7 NMOS 2
 i   ===PinInfo===
 i   PinID NetID InstID PinName PinDirection PinLength
-i   pin0 net0 insMM6 S s 3
-i   pin1 net1 insMM6 G s 3
-i   pin2 net2 insMM6 D s 3
-i   pin3 net0 insMM9 D t 3
-i   pin4 net3 insMM9 G s 3
-i   pin5 net4 insMM9 S s 3
-i   pin6 net4 insMM11 S t 3
-i   pin7 net1 insMM11 G t 3
-i   pin8 net5 insMM11 D s 3
-i   pin9 net5 insMM10 S t 3
-i   pin10 net2 insMM10 G t 3
-i   pin11 net6 insMM10 D s 3
-i   pin12 net6 insMM8 S t 3
-i   pin13 net7 insMM8 G s 3
-i   pin14 net0 insMM8 D t 3
-i   pin15 net8 insMM7 D s 3
-i   pin16 net5 insMM7 G t 3
-i   pin17 net0 insMM7 S t 3
-i   pin18 net9 insMM0 S s 3
-i   pin19 net1 insMM0 G t 3
-i   pin20 net2 insMM0 D t 3
-i   pin21 net9 insMM2 D t 3
-i   pin22 net3 insMM2 G t 3
-i   pin23 net10 insMM2 S s 3
-i   pin24 net10 insMM5 S t 3
-i   pin25 net2 insMM5 G t 3
-i   pin26 net5 insMM5 D t 3
-i   pin27 net5 insMM4 S t 3
-i   pin28 net1 insMM4 G t 3
-i   pin29 net11 insMM4 D s 3
-i   pin30 net11 insMM1 S t 3
-i   pin31 net7 insMM1 G t 3
-i   pin32 net9 insMM1 D t 3
-i   pin33 net8 insMM3 D t 3
-i   pin34 net5 insMM3 G t 3
-i   pin35 net9 insMM3 S t 3
+i   pin0 net0 insMM6 S s 2
+i   pin1 net1 insMM6 G s 2
+i   pin2 net2 insMM6 D s 2
+i   pin3 net0 insMM9 D t 2
+i   pin4 net3 insMM9 G s 2
+i   pin5 net4 insMM9 S s 2
+i   pin6 net4 insMM11 S t 2
+i   pin7 net1 insMM11 G t 2
+i   pin8 net5 insMM11 D s 2
+i   pin9 net5 insMM10 S t 2
+i   pin10 net2 insMM10 G t 2
+i   pin11 net6 insMM10 D s 2
+i   pin12 net6 insMM8 S t 2
+i   pin13 net7 insMM8 G s 2
+i   pin14 net0 insMM8 D t 2
+i   pin15 net8 insMM7 D s 2
+i   pin16 net5 insMM7 G t 2
+i   pin17 net0 insMM7 S t 2
+i   pin18 net9 insMM0 S s 2
+i   pin19 net1 insMM0 G t 2
+i   pin20 net2 insMM0 D t 2
+i   pin21 net9 insMM2 D t 2
+i   pin22 net3 insMM2 G t 2
+i   pin23 net10 insMM2 S s 2
+i   pin24 net10 insMM5 S t 2
+i   pin25 net2 insMM5 G t 2
+i   pin26 net5 insMM5 D t 2
+i   pin27 net5 insMM4 S t 2
+i   pin28 net1 insMM4 G t 2
+i   pin29 net11 insMM4 D s 2
+i   pin30 net11 insMM1 S t 2
+i   pin31 net7 insMM1 G t 2
+i   pin32 net9 insMM1 D t 2
+i   pin33 net8 insMM3 D t 2
+i   pin34 net5 insMM3 G t 2
+i   pin35 net9 insMM3 S t 2
 i   pin36 net9 ext VDD t -1 P
 i   pin37 net0 ext VSS t -1 P
 i   pin38 net7 ext I0 t -1 I
