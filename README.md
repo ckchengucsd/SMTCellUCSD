@@ -10,7 +10,7 @@
     
 </p>
 
-_SMTCell_ is a Cell Layout Generation Toolkit for DTCO/STCO Exploration from VLSI Lab in University of California San Diego. Our goal is to enable technology exploration on FinFET, VFET and CFET with intuitive design rule encoding using Satisfiability Modulo Theories (SMT). Unlike our previous work, _SMTCell_ is equipped with flexibility in [**Gear Ratio (GR)**](https://github.com/ckchengucsd/SMTCellUCSD/blob/agr/doc/AGR_Design.md), where metal pitch distance can be fully customized. We also provide functionaility to accelerate your design turnaround time with **pre-partitioning**. 
+_SMTCell_ is a Cell Layout Generation Toolkit for DTCO/STCO Exploration from VLSI Lab in University of California San Diego. Our goal is to enable technology exploration on FinFET, VFET and CFET with intuitive design rule encoding using Satisfiability Modulo Theories (SMT). Unlike our previous work, _SMTCell_ is equipped with flexibility in [**Gear Ratio (GR)**](https://github.com/ckchengucsd/SMTCellUCSD/blob/main/doc/AGR_Design.md), where metal pitch distance can be fully customized. We also provide functionaility to accelerate your design turnaround time with **pre-partitioning**. 
 Accompnany publications can be found [Gear-Ratio-Aware Standard Cell Layout Framework
 for DTCO Exploration](https://vlsicad.ucsd.edu/Publications/Conferences/402/c402.pdf).
 
@@ -21,7 +21,7 @@ for DTCO Exploration](https://vlsicad.ucsd.edu/Publications/Conferences/402/c402
     <img src="/doc/figure/flow.png" width="650">
 </p>
 
-To run our codebase, we need a customized data file called _.pinlayout_ that is converted from _.cdl_. This file comprised of basic cell design entities like pins, instances and nets. Additionally, you need to configure your own design by using _config.json_ files. To understand what each parameter is doing, please refer to this document [here](https://github.com/ckchengucsd/SMTCellUCSD/blob/agr/doc/Design.md#design-configuration).
+To run our codebase, we need a customized data file called _.pinlayout_ that is converted from _.cdl_. This file comprised of basic cell design entities like pins, instances and nets. Additionally, you need to configure your own design by using _config.json_ files. To understand what each parameter is doing, please refer to this document [here](https://github.com/ckchengucsd/SMTCellUCSD/blob/main/doc/Design.md).
 
 We use a SMT solver to generate a solution for the given design. The solution is then converted to a _.gdt_ file, which can be viewed using [KLayout](https://www.klayout.de/). The _.gdt_ file can be converted to _.gds_ file using [GDT2GDS](https://sourceforge.net/projects/gds2/).
 
@@ -52,7 +52,7 @@ Now you are ready to go! Optionally, please consider installing the following to
 _SMTCell_ depends on open source tools and libraries. Please download and install the following software if you want to enjoy the complete functionality of _SMTCell_.
 - [GDT2GDS](https://sourceforge.net/projects/gds2/) for converting .gdt to .gds.
 - [KLayout](https://www.klayout.de/) for viewing .gds/.lef files.
-- [PROBE3.0](https://github.com/ckchengucsd/SMTCellUCSD/blob/agr/doc/Installation.md) for custom PDK generation.
+- [PROBE3.0](https://github.com/ABKGroup/PROBE3.0/) for custom PDK generation.
 
 ## Quick Start
 _SMTCell_ contains three different flows. For generating
