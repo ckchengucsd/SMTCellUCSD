@@ -1056,7 +1056,7 @@ void DesignRuleWriter::write_EOL_AGR_rule(
     fmt::print(drlog, ";8-C. from Back Tip to Front Tips for each vertex\n");
     DesignRuleWriter::write_EOL_AGR_BF_tip_helper(
         EOL_M1_B_ADJ_Parameter, EOL_M1_B_Parameter, EOL_M3_B_ADJ_Parameter,
-        doublePowerRail, EOL_M3_B_Parameter, drlog);
+        EOL_M3_B_Parameter, doublePowerRail, drlog);
     SMTCell::writeConstraint("\n");
 
     // ### DATA STRUCTURE:  VERTEX [index] [name] [Z-pos] [Y-pos] [X-pos]
