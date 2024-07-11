@@ -21,7 +21,7 @@ for DTCO Exploration](https://vlsicad.ucsd.edu/Publications/Conferences/402/c402
     <img src="/doc/figure/flow.png" width="650">
 </p>
 
-To run our codebase, we need a customized data file called _.pinlayout_ that is converted from _.cdl_. This file comprised of basic cell design entities like pins, instances and nets. Additionally, you need to configure your own design by using _config.json_ files. To understand what each parameter is doing, please refer to this document [here](https://github.com/ckchengucsd/SMTCellUCSD/blob/main/doc/Design.md).
+To run our codebase, we need a customized data file called _.pinlayout_ that is converted from _.cdl_. This file comprised of basic cell design entities like pins, instances and nets. Additionally, you need to configure your own design by using _config.json_ files. To understand what each parameter is doing, please refer to documents under [HERE](https://github.com/ckchengucsd/SMTCellUCSD/tree/main/doc).
 
 We use a SMT solver to generate a solution for the given design. The solution is then converted to a _.gdt_ file, which can be viewed using [KLayout](https://www.klayout.de/). The _.gdt_ file can be converted to _.gds_ file using [GDT2GDS](https://sourceforge.net/projects/gds2/).
 
