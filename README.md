@@ -65,7 +65,7 @@ make SMTCell_prepartition
 make viewSMTCell
 ```
 ## Design Your Own Cell
-For setting up the cell configuration and customize cell based on your own designs, please visit this documentation [here](https://github.com/ckchengucsd/SMTCellUCSD/blob/agr/doc/Design.md).
+For setting up the cell configuration and customize cell based on your own designs, please visit this documentation [here](https://github.com/ckchengucsd/SMTCellUCSD/blob/main/doc/Design.md).
 
 ## Pre-Partitioning
 <p align="center">
