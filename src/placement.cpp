@@ -1303,8 +1303,8 @@ void Placement::set_default_G_metal() {
             int metal = 1; // AGR FLAG: placement only considers M1
             int height = 3;
 
-            // Source pin is Gate
-            if (SMTCell::getPin(sourcePin)->getPinType() == Pin::GATE) {
+            // Sink pin is Gate
+            if (SMTCell::getPin(sinkPin)->getPinType() == Pin::GATE) {
               // VirtualEdge *tmp_ve = SMTCell::getVirtualEdge(vEdgeIndex);
               int tmp_col = tmp_ve->getVCoord()->col_;
               if (SMTCell::ifGCol_AGR(metal, tmp_col)) {
