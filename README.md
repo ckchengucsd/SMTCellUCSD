@@ -1,6 +1,6 @@
-# SMTCellUCSD
+# SMTCell 1.5 (Preview)
 <p align="center">
-    <img src="/doc/figure/Logo.png" width="650">
+    <img src="/doc/figure/SMTCellLogo.png" width="650">
 </p>
 <p align="center">
     <a href="https://github.com/ckchengucsd/SMTCellUCSD/network/dependencies" alt="Contributors">
