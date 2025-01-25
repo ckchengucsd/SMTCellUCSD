@@ -12,8 +12,7 @@ include(ExternalProject)
 # Boost
 set(BOOST_VERSION 1.83.0)
 set(BOOST_VERSION_US 1_83_0)
-set(BOOST_URL https://boostorg.jfrog.io/artifactory/main/release/${BOOST_VERSION}/source/boost_${BOOST_VERSION_US}.tar.bz2)
-
+set(BOOST_URL https://archives.boost.io/release/${BOOST_VERSION}/source/boost_${BOOST_VERSION_US}.tar.bz2)
 set(BOOST_INSTALL ${CMAKE_BINARY_DIR}/boost-prefix/src/boost)
 
 ExternalProject_Add(
