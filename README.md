@@ -14,7 +14,7 @@ _SMTCell_ is a Cell Layout Generation Toolkit for DTCO/STCO Exploration from VLS
 Accompnany publications can be found [Gear-Ratio-Aware Standard Cell Layout Framework
 for DTCO Exploration](https://vlsicad.ucsd.edu/Publications/Conferences/402/c402.pdf).
 
-(_SMTCell_ currently is built around FinFET Technology.)
+_SMTCell_ currently is built around FinFET Technology. The multi-height version is availble at [SMTCellUCSD-MH](https://github.com/ckchengucsd/SMTCellUCSD-MH).
 
 ## Main Flow
 <p align="center">
